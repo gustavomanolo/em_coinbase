@@ -4,6 +4,7 @@
 ```sh
 $ git clone https://github.com/gustavomanolo/em_coinbase.git
 $ cd em_coinbase
+$ npm install
 $ npm run dev
 $ open web browser on http://localhost:3000/
 ```
@@ -12,6 +13,7 @@ $ open web browser on http://localhost:3000/
 ```sh
 $ git clone https://github.com/gustavomanolo/em_coinbase.git
 $ cd em_coinbase
+$ npm install
 $ npm run build
 $ npm run start
 $ open web browser on http://localhost:3000/
