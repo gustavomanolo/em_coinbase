@@ -1,0 +1,35 @@
+.tableFixed {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  thead {
+    background: black;
+    color: #fff;
+
+    tr {
+      display: block;
+    }
+  }
+
+  tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 400px;
+
+    tr.buy {
+      background-color: #c3e6cb !important;
+    }
+    tr.sell {
+      background-color: #f5c6cb !important;
+    }
+  }
+
+  th,
+  td {
+    text-align: left;
+    width: 200px;
+    padding: 5px;
+  }
+}
